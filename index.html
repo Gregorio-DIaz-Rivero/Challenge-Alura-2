@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  |  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div style="text-align:center; margin: 50px 0;" id="start">
+      <h1 class="titulo">Ahorcado</h1>
+        <button class="btn" id="iniciar-juego" onclick="generarTablero()">INICIAR JUEGO</button>
+
+      <div style="text-align:center">
+        <label for="input-nueva-palabra">
+            <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra"></label>
+        <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button>
+      </div>
+    </div>
+
+    <div style="text-align:center;" id="contentGame" >
+      <canvas id="ahorcado" height="800px" width="1200px">
+        <p style="text-align: center">Hola mundo</p>
+      </canvas>
+    </div>
+
+
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div id="links">
+          <a href="https://github.com/Gregorio-DIaz-Rivero?tab=repositories" target="_blank" rel="noreferrer noopener">
+            <img id="github" src="assets/image/github.png" alt="footer logo github">
+          </a>
+        </div>
+        <p id="author">© 2022 Gregorio Enrique Diaz Rivero All Rights Reserved</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+  </body>
+</html>

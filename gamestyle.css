@@ -1,0 +1,16 @@
+footer {
+    padding-top: 10px;
+    display: block;
+    width: 100vw;
+    background: black;
+    color: lightgrey;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    height: 100px;
+}
+
+#github {
+    width:30px;
+    height:30px;
+}
