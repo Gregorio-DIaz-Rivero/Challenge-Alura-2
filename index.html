@@ -7,7 +7,7 @@
     <title>Ahorcado</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body onload="chargeData()">
     <div style="text-align:center; margin: 50px 0;" id="start">
       <h1 class="titulo">Ahorcado</h1>
         <button class="btn" id="iniciar-juego" onclick="generarTablero()">INICIAR JUEGO</button>
@@ -15,7 +15,7 @@
       <div style="text-align:center">
         <label for="input-nueva-palabra">
             <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra"></label>
-        <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button>
+        <button class="btn" id="nueva-palabra" onclick="newSecretWord()">AGREGAR PALABRA</button>
       </div>
     </div>
 
