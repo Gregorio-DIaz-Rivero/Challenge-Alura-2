@@ -133,6 +133,6 @@ function wonGame() {
     const canvas = document.querySelector("canvas");
     const pincel = canvas.getContext("2d");
     pincel.font = "35pt Verdana";
-    pincel.fillStyle = "red";
-    pincel.fillText("Felicitaciónes, ganaste el juego", 350,100);
+    pincel.fillStyle = "green";
+    pincel.fillText("Felicitaciónes, ganaste el juego", 310,100);
 }
