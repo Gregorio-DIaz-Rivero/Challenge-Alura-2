@@ -17,7 +17,6 @@ function chargeData() {
 
 function getSecretWord() {
     wordSelected = (localStorage[Math.floor(Math.random()*localStorage.length)])
-    console.log(1)
     isStarted = true
     drawLines(wordSelected)
 }

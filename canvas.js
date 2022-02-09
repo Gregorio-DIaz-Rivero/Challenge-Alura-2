@@ -34,7 +34,6 @@ function generarTablero() {
 }
 
 function drawLines(word) {
-    console.log(word)
     var lines = word.length
     var i
     const canvas = document.querySelector("canvas");
